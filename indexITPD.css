@@ -1,0 +1,77 @@
+body{ 
+  background-image: url(./images/bg-pattern-desktop.svg);
+  background-color: rgb(124, 124, 133);
+}
+.bigbox{
+  display:flex;
+  background-image: url("images/bg-pattern-desktop.svg")}
+.box1{
+  display:block;
+  width:50px;
+  height: 60px;
+  margin-left: 50px;
+  padding-right: 500px;
+}
+.box2 {
+  margin-left:486px;
+  margin-top:50px;
+  
+}
+
+h1{
+  margin-left:-140px;
+  margin-top:220px;
+  margin-left: 270px;
+  color: rgb(148, 64, 85);
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 20px;
+  font-size: 60px
+}
+p{
+  margin-left:370px;
+  margin-top:-10px;
+  width: 490px;
+  text-transform:capitalize;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(66, 60, 61);
+  
+
+}
+svg {
+  margin-left: -180px;
+  margin-top: 99px;
+}
+input {
+  color: rgb(24, 21, 21);
+  width:500px ;
+  height:50px ;
+  border-radius:30px ;
+  border-color: rgb(231, 159, 159);
+  border-style: solid;
+  margin-left: 360px;
+  margin-top: 50%;
+  font-weight: bolder;
+  cursor: pointer;
+ }
+ button {
+  width:100px ;
+  position: absolute;
+  height:52px ;
+  border-radius:30px ;
+  border-color: rgb(231, 159, 159);
+  color: rgb(8, 28, 46);
+  margin-left: 768px;
+  margin-top: -2.84%;
+  border-style: solid;
+  background-color: rgb(236, 139, 139); 
+  cursor: pointer;
+  transition: opacity 0.15s,box-shadow 0.15s;
+  font-size: 32px;
+  color: white;
+ }
+ button:hover {
+   opacity: 0.8;
+   box-shadow: 0 5px 5px rgba(253, 253, 253);
+ }
